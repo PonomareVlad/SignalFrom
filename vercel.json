@@ -1,0 +1,21 @@
+{
+  "scope": "ponomarevlad",
+  "alias": "sf.ponomarevlad.ru",
+  "regions": [
+    "arn1"
+  ],
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "TELEGRAM_BOT_TOKEN": "@telegram_bot_token",
+    "TELEGRAM_USER_ID": "@telegram-user-id"
+  },
+  "github": {
+    "silent": true
+  }
+}

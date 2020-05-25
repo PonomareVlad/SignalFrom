@@ -1,0 +1,26 @@
+{
+  "name": "signal-from",
+  "version": "1.0.0",
+  "description": "Signal From",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "author": "PonomareVlad",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PonomareVlad/SignalFrom.git"
+  },
+  "keywords": [
+    "Signal From"
+  ],
+  "bugs": {
+    "url": "https://github.com/PonomareVlad/SignalFrom/issues"
+  },
+  "homepage": "https://github.com/PonomareVlad/SignalFrom#readme"
+}
